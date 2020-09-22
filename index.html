@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="res/css/home_style.css">
-    <title>Homepage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="res/css/home_style.css">
+  <title>Homepage</title>
+
+  <div class="topnav">
+    <img src="res/img/logo.png" height="30px">
+    <!--Ajutine pildi suurus, et see kogu lehte ei kataks,CSSis muuda ära, leidub mujal ka -->
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <img src="res/img/defaultUser.png" height="30px">
+  </div>
 </head>
+
 <body>
-    
+
+  <div class="userPost">
+    <div class="userPostHead">
+      <img src="res/img/defaultUser.png" height="30px">
+      <p>Sep 18, 2020 15:16</p>
+    </div>
+    <div class="userPostContent">
+      <img src="res/img/pic1.png" height="200">
+    </div>
+    <div class="userPostFoot">
+      <p>I Think it's going to rain</p>
+      <input type="image" src="res/img/likeButton.png" name="like" height="40px">
+    </div>
+  </div>
+
+  <div class="userPost">
+    <div class="userPostHead">
+      <img src="res/img/defaultUser.png" height="30px">
+      <p>Sep 18, 2020 15:16</p>
+    </div>
+    <div class="userPostContent">
+    </div>
+    <div class="userPostFoot">
+      <p>I Think it's going to rain</p>
+      <input type="image" src="res/img/likeButton.png" name="like" height="40px">
+    </div>
+  </div>
+
+  <div class="userPost">
+    <div class="userPostHead">
+      <img src="res/img/defaultUser.png" height="30px">
+      <p>Sep 18, 2020 15:16</p>
+    </div>
+    <div class="userPostContent">
+      <img src="res/img/pic2.png" height="200">
+    </div>
+    <div class="userPostFoot">
+      <p>I Think it's going to rain</p>
+      <input type="image" src="res/img/likeButton.png" name="like" height="40px">
+    </div>
+  </div>
+
 </body>
+
 </html>
